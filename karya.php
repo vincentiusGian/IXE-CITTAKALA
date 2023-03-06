@@ -23,45 +23,7 @@ if(!isset($_SESSION["login"])) {
   </head>
   <body>
    
-  <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="https://reginapacis.sch.id/" target="_blank">
-            <img src="assets/logo-RP.jpg" alt="" width="35" height="50">
-            &nbsp;  
-            IXE VIRTUAL MUSEUM
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-          
-          <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="karya.php">KARYA SISWA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">PANITIA</a>
-              </li>
-              </li>
-            </ul>
-            <span class="badge badge-primary text-wrap" style="width: 6rem; height: 27px; background-color: red;">
-                <a href="logout.php" class="text-decoration-none text-reset font-weight-bolder">LOGOUT</a>
-            </span>
-            <br>
-            <a href="">
-              <img src="assets/Circle Education Badge Logo.png" alt="" width="75" height="75">
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
+  <?php include 'components/header.php'; ?>
     <hr>
     
     

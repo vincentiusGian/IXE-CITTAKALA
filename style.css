@@ -114,3 +114,8 @@ body {
     margin-top: 5rem;
   }
 }
+
+.navbar {
+  background-color: #8a2be2; /* contoh warna ungu */
+  opacity: 1;
+}
