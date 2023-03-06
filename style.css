@@ -2,18 +2,33 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+:root {
+  --main-color: #2980b9;
+  --red: #e74c3c;
+  --orange: #f39c12;
+  --light-color: #666;
+  --light-bg: #eee;
+  --white: #fff;
+  --black: #2c3e50;
+  --border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  --box-shodow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+*,
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
+  font-family: "Jost", sans-serif;
 }
 
 /* nav design */
+.navbar-nav {
+  font-weight: bold;
+}
 
 .navbar-nav li:hover {
   background-color: rgb(88, 88, 88);
   border-radius: 5px;
 }
+
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
 
@@ -79,7 +94,7 @@ body {
 }
 
 /* RESPONSIVE CSS
-  -------------------------------------------------- */
+    -------------------------------------------------- */
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
@@ -96,6 +111,6 @@ body {
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
 }
